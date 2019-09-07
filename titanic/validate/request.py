@@ -18,7 +18,7 @@ class TitanicModelNestedDataSchema(Schema):
     p_class = fields.Str(required=True)
 
 
-class TitanicModelRequestSchema(RequestSchema, Schema):
+class TitanicModelRequestSchema(RequestSchema):
     """
     Schema for all incoming requests to the titanic_model endpoint.
     """
