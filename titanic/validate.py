@@ -24,7 +24,7 @@ class TitanicModelRequestSchema(RequestSchema, Schema):
     """
     data = fields.List(
         fields.Nested(
-            TitanicModelNestedDataSchema, 
+            TitanicModelNestedDataSchema,
             required=True
         ),
         required=True
